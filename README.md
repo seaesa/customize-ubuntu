@@ -4,13 +4,13 @@
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontLigatures": true,
   "editor.mouseWheelZoom": true,
   "window.zoomLevel": -2,
   "window.titleBarStyle": "custom",
-  "window.title": "ngồi xuống code đi con",
+  "window.title": "🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🥝  🥑 🍍 🍒 🍑 🌽 🍅",
   "window.density.editorTabHeight": "compact",
   "editor.fontFamily": "'Cascadia Code','Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": "'calt', 'ss01'",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "editor.fontSize": 16,
   "editor.tabSize": 2,
@@ -26,35 +26,32 @@
   "editor.linkedEditing": true,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.tokenColorCustomizations": {
-    "[Andromeda Italic]": {
-      "textMateRules": [
-        {
-          "scope": [
-            "variable"
-          ],
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": [
-            "text.html.derivative"
-          ],
-          "settings": {
-            "foreground": "#bab2e2",
-            "fontStyle": "italic"
-          }
-        },
-      ]
-    }
+    "textMateRules": [
+      {
+        "scope": [
+          "text.html.derivative"
+        ],
+        "settings": {
+          "foreground": "#bab2e2",
+        }
+      },
+      {
+        "scope": [
+          ""
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
   },
   "workbench.colorCustomizations": {
     "editorBracketHighlight.foreground1": "#7eb2ff",
-    "editorBracketHighlight.foreground2": "#6cff67",
-    "editorBracketHighlight.foreground3": "#ca9bff",
-    "editorBracketHighlight.foreground4": "#ff95ec",
-    "editorBracketHighlight.foreground5": "#ffda37",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff6092",
+    "editorBracketHighlight.foreground2": "#85df82",
+    "editorBracketHighlight.foreground3": "#ac8cd1",
+    "editorBracketHighlight.foreground4": "#ff90eb",
+    "editorBracketHighlight.foreground5": "#ffe057",
+    "editorBracketHighlight.foreground6": "#ffa777",
   },
   "window.commandCenter": false,
   "editor.cursorBlinking": "expand",
@@ -89,11 +86,12 @@
   "editor.formatOnSave": true,
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "update.mode": "none",
-  "extensions.autoUpdate": false,
+  "extensions.autoUpdate": "onlySelectedExtensions",
   "update.showReleaseNotes": false,
   "workbench.editor.empty.hint": "hidden",
   "terminal.integrated.env.linux": {},
   "terminal.integrated.tabs.enabled": false,
   "extensions.ignoreRecommendations": true,
+  "workbench.editor.enablePreview": false,
 }
 ```
