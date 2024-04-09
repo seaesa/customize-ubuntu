@@ -7,10 +7,11 @@
   "editor.mouseWheelZoom": true,
   "window.zoomLevel": -2,
   "window.titleBarStyle": "custom",
-  "window.title": "🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🥝  🥑 🍍 🍒 🍑 🌽 🍅",
+  "window.title": "🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🥝 🥑 🍍 🍒 🍑 🍆 🥒 🥕 🌶 🌽 🍅 🥔 🍠  🌰 🥜 🍯 🥐 🍞 🥖 🧀 🥚 🍳 🥓",
   "window.density.editorTabHeight": "compact",
   "editor.fontFamily": "'Cascadia Code','Droid Sans Mono', 'monospace', monospace",
   "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.fontVariations": true,
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "editor.fontSize": 16,
   "editor.tabSize": 2,
@@ -29,21 +30,17 @@
     "textMateRules": [
       {
         "scope": [
-          "text.html.derivative"
+          "constant",
+          "keyword",
+          "storage",
+          "entity.name.function",
+          "support.type.primitive.tsx",
         ],
         "settings": {
-          "foreground": "#bab2e2",
+          "fontStyle": "italic",
         }
       },
-      {
-        "scope": [
-          ""
-        ],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
+    ],
   },
   "workbench.colorCustomizations": {
     "editorBracketHighlight.foreground1": "#7eb2ff",
@@ -93,5 +90,14 @@
   "terminal.integrated.tabs.enabled": false,
   "extensions.ignoreRecommendations": true,
   "workbench.editor.enablePreview": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.emmetCompletions": true,
 }
 ```
