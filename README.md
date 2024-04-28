@@ -1,31 +1,33 @@
-# vscode-json
-```
 {
-  "window.title": "🍏-->🍎-->🍐-->🍊-->🍋-->🍌",
+  "window.title": " ",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Andromeda Italic",
   "editor.fontFamily": "'Cascadia Code','Droid Sans Mono', 'monospace', monospace",
-  "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.fontLigatures": true,
   "window.density.editorTabHeight": "compact",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": -2,
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#7eb2ff",
+    "editorBracketHighlight.foreground2": "#85df82",
+    "editorBracketHighlight.foreground3": "#ac8cd1",
+    "editorBracketHighlight.foreground4": "#ff90eb",
+    "editorBracketHighlight.foreground5": "#ffe057",
+    "editorBracketHighlight.foreground6": "#ffa777",
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": [
-          "constant",
-          "keyword",
-          "storage",
-          "entity.name.function",
-          "support.type.primitive.tsx",
+          ""
         ],
         "settings": {
-          "fontStyle": "italic",
+          "fontStyle": "italic"
         }
-      },
-    ],
+      }
+    ]
   },
   "editor.mouseWheelZoom": true,
   "editor.fontVariations": true,
@@ -42,14 +44,6 @@
   "explorer.confirmDragAndDrop": false,
   "editor.linkedEditing": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#7eb2ff",
-    "editorBracketHighlight.foreground2": "#85df82",
-    "editorBracketHighlight.foreground3": "#ac8cd1",
-    "editorBracketHighlight.foreground4": "#ff90eb",
-    "editorBracketHighlight.foreground5": "#ffe057",
-    "editorBracketHighlight.foreground6": "#ffa777",
-  },
   "window.commandCenter": false,
   "editor.cursorBlinking": "expand",
   "terminal.integrated.cursorStyle": "line",
@@ -61,13 +55,7 @@
   "extensions.autoCheckUpdates": false,
   "window.menuBarVisibility": "toggle",
   "editor.glyphMargin": false,
-  "material-icon-theme.folders.associations": {
-    "react": "../../../icons/folder-react-components",
-    "redux": "../../../icons/folder-redux-store",
-    "node": "../../../icons/folder-node",
-  },
   "editor.matchBrackets": "near",
-  "html.validate.styles": false,
   "css.lint.emptyRules": "ignore",
   "scss.lint.emptyRules": "ignore",
   "editor.formatOnSave": true,
@@ -79,9 +67,10 @@
   "terminal.integrated.env.linux": {},
   "terminal.integrated.tabs.enabled": false,
   "extensions.ignoreRecommendations": true,
-  "workbench.editor.enablePreview": false,
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.css": "tailwindcss",
+    "*.scss": "tailwindcss",
+    "*.sass": "tailwindcss",
   },
   "tailwindCSS.emmetCompletions": true,
   "editor.smoothScrolling": true,
@@ -100,5 +89,5 @@
     "comments": "off",
     "strings": "on"
   },
+  "git.decorations.enabled": false,
 }
-```
