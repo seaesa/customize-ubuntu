@@ -1,12 +1,12 @@
 {
   "window.title": " ",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Andromeda Italic",
+  "workbench.colorTheme": "Andromeda",
   "editor.fontFamily": "'Cascadia Code','Droid Sans Mono', 'monospace', monospace",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": "'calt', 'ss01'",
   "window.density.editorTabHeight": "compact",
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": -2,
+  "window.zoomLevel": -1.6,
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.colorCustomizations": {
@@ -16,6 +16,7 @@
     "editorBracketHighlight.foreground4": "#ff90eb",
     "editorBracketHighlight.foreground5": "#ffe057",
     "editorBracketHighlight.foreground6": "#ffa777",
+    "editor.background": "#20232b",
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -27,12 +28,13 @@
           "fontStyle": "italic"
         }
       }
-    ]
+    ],
   },
   "editor.mouseWheelZoom": true,
   "editor.fontVariations": true,
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "explorer.compactFolders": false,
@@ -90,4 +92,6 @@
     "strings": "on"
   },
   "git.decorations.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "explorer.confirmPasteNative": false,
 }
