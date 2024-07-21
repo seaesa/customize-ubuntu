@@ -1,98 +1,31 @@
-```json
-{
-  //  window config
-  "window.title": " ",
-  "window.density.editorTabHeight": "compact",
-  "window.titleBarStyle": "custom",
-  "window.zoomLevel": -1.2,
-  "window.commandCenter": false,
-  "window.menuBarVisibility": "toggle",
-  "window.confirmSaveUntitledWorkspace": false,
-  // editor config
-  "editor.fontFamily": "'Cascadia Code','Droid Sans Mono', 'monospace', monospace",
-  // "editor.fontLigatures": "'calt', 'ss01'",
-  "editor.fontLigatures": true,
-  "editor.mouseWheelZoom": true,
-  "editor.fontVariations": true,
-  "editor.fontSize": 14,
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "editor.quickSuggestionsDelay": 1,
-  "editor.minimap.enabled": false,
-  "editor.linkedEditing": true,
-  "editor.cursorBlinking": "expand",
-  "editor.glyphMargin": false,
-  "editor.matchBrackets": "near",
-  "editor.formatOnSave": true,
-  "editor.smoothScrolling": true,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.scrollbar.horizontalScrollbarSize": 0,
-  "editor.scrollbar.verticalScrollbarSize": 0,
-  "editor.mouseWheelScrollSensitivity": 2,
-  "editor.fastScrollSensitivity": 10,
-  "editor.snippetSuggestions": "none",
-  "editor.suggest.showWords": false,
-  "editor.quickSuggestions": {
-    "other": "on",
-    "comments": "off",
-    "strings": "on"
-  },
-  // workbench config
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Andromeda Italic",
-  "workbench.statusBar.visible": false,
-  "workbench.startupEditor": "none",
-  "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#7eb2ff",
-    "editorBracketHighlight.foreground2": "#85df82",
-    "editorBracketHighlight.foreground3": "#ac8cd1",
-    "editorBracketHighlight.foreground4": "#ff90eb",
-    "editorBracketHighlight.foreground5": "#ffe057",
-    "editorBracketHighlight.foreground6": "#ffa777",
-    "editor.background": "#20232b",
-  },
-  "workbench.layoutControl.enabled": false,
-  "workbench.activityBar.location": "hidden",
-  "workbench.commandPalette.history": 10,
-  "workbench.editor.empty.hint": "hidden",
-  "workbench.list.smoothScrolling": true,
-  "workbench.list.mouseWheelScrollSensitivity": 2,
-  // terminal config
-  "terminal.integrated.fontFamily": "'MesloLGS NF','Cascadia Code','monospace'",
-  "terminal.integrated.fontWeight": "bold",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.env.linux": {},
-  "terminal.integrated.tabs.enabled": false,
-  "terminal.integrated.persistentSessionReviveProcess": "never",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorStyleInactive": "none",
-  "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.tabs.defaultIcon": "github",
-  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-  // git config
-  "git.decorations.enabled": false,
-  "git.openRepositoryInParentFolders": "never",
-  // explore config
-  "explorer.confirmPasteNative": false,
-  "explorer.compactFolders": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.autoReveal": false,
-  // orther config
-  "tailwindCSS.emmetCompletions": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "extensions.autoCheckUpdates": false,
-  "css.lint.emptyRules": "ignore",
-  "scss.lint.emptyRules": "ignore",
-  "update.mode": "none",
-  "extensions.autoUpdate": "onlySelectedExtensions",
-  "update.showReleaseNotes": false,
-  "extensions.ignoreRecommendations": true,
-  "files.associations": {
-    ".css": "tailwindcss",
-    ".scss": "tailwindcss",
-    "*.sass": "tailwindcss",
-  },
-}
+# This is all my configuration for Editor, Web browser, behavior,... in Linux Ubuntu 22.04
+
+## If You Don;t Install Ubuntu Check in website <a href="https://ubuntu.com/download/desktop">Ubuntu Offical</a>
+
+### Initial Step Before Started:
+cd ~/Downloads and flowwing command:
+- Upgrade System:
+```bash
+  sudo apt update && sudo apt dist-upgrade -y
 ```
+- install nesscency dependency:
+```bash
+  sudo apt install neofetch curl cmatrix make cmake ibus-unikey gnome-tweaks gnome-shell-extension-manager
+```
+- install nodejs:
+Static Version:
+```bash
+wget https://nodejs.org/dist/v20.15.1/node-v20.15.1.tar.gz
+```
+Switch Dynamic Version:
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+nvm install 20
+```
+- Install Application
+Download deb file for application below and run command sudo dpkg -i [filename]
+>Google Chrome
+>Vscode
+>MongoDb Compass
+>Docker
+>Firefox
