@@ -1,6 +1,6 @@
 # This is all my configuration for Editor, Web browser, behavior,... in Linux Ubuntu 22.04
 
-## If You Don;t Install Ubuntu Check in website <a href="https://ubuntu.com/download/desktop">Ubuntu Offical</a>
+## If You Don't Install Ubuntu Check in website <a href="https://ubuntu.com/download/desktop">Ubuntu Offical</a>
 
 ### Initial Step Before Started:
 cd ~/Downloads and flowwing command:
