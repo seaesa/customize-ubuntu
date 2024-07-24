@@ -23,9 +23,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 nvm install 20
 ```
 - Install Application
-Download deb file for application below and run command sudo dpkg -i [filename]
->Google Chrome
->Vscode
->MongoDb Compass
->Docker
->Firefox
+
+```bash
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64 https://downloads.mongodb.com/compass/mongodb-compass_1.43.4_amd64.deb 
+```
