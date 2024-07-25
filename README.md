@@ -29,5 +29,5 @@ nvm install 20
 ```
 
 # Learn More:
-- If you a newbie, Learn Linux basic : <a href="https://linuxjourney.com/">Linux Journey</a>
-- Text editor: <a href="https://neovim.io/">NeoVim</a>
+- If you a newbie, Learn Linux basic - <a href="https://linuxjourney.com/">Linux Journey</a>
+- Text editor - <a href="https://neovim.io/">NeoVim</a>
