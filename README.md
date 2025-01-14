@@ -1,6 +1,7 @@
 ## This is all my configuration for Editor, Web browser, behavior,... in Linux Ubuntu 22.04
 
-> If You Don't Install Ubuntu Check in website <a href="https://ubuntu.com/download/desktop">Ubuntu Offical</a>
+### Requiment
+- If You Don't have install Ubuntu Check in website - [Ubuntu Official](https://ubuntu.com/download/desktop)
 
 ### Preview:
 ![home-screen](./preview/home-screen.png)
@@ -32,6 +33,6 @@ nvm install 20
   wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64 https://downloads.mongodb.com/compass/mongodb-compass_1.43.4_amd64.deb 
 ```
 
-# Learn More:
+## Learn More:
 - If you a newbie, Learn Linux basic - <a href="https://linuxjourney.com/">Linux Journey</a>
 - Text editor - <a href="https://neovim.io/">NeoVim</a>

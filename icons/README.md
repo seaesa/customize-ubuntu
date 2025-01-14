@@ -1,6 +1,6 @@
-# Introduction
+## Introduction
 - if command ./install.sh don't success. Try `sudo chmod +x install.sh` and try again.
-## Get Started
+## Manual:
 Reversal icon theme
 ```bash
   git clone https://github.com/yeyushengfan258/Reversal-icon-theme.git
