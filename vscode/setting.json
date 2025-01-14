@@ -6,8 +6,22 @@
   "window.commandCenter": false,
   "window.menuBarVisibility": "toggle",
   "window.confirmSaveUntitledWorkspace": false,
-  "editor.fontFamily": "'Cascadia Code','Droid Sans Mono', 'monospace', monospace",
-  "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.fontFamily": "'Cascadia Code','JetBrains Mono','Droid Sans Mono', 'monospace', monospace",
+  // "editor.fontLigatures": true,
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          ""
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "css.lint.unknownAtRules": "ignore",
   "editor.mouseWheelZoom": true,
   "editor.fontVariations": true,
   "editor.fontSize": 16,
@@ -31,11 +45,9 @@
   "editor.suggest.showWords": false,
   "editor.quickSuggestions": {
     "other": "on",
-    "comments": "off",
+    "comments": "on",
     "strings": "on"
   },
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Andromeda Italic",
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.colorCustomizations": {
@@ -45,7 +57,7 @@
     "editorBracketHighlight.foreground4": "#ff90eb",
     "editorBracketHighlight.foreground5": "#ffe057",
     "editorBracketHighlight.foreground6": "#ffa777",
-    "editor.background": "#20232b"
+    "editor.background": "#20232b",
   },
   "workbench.layoutControl.enabled": false,
   "workbench.activityBar.location": "hidden",
@@ -80,5 +92,30 @@
   "extensions.autoUpdate": "onlySelectedExtensions",
   "update.showReleaseNotes": false,
   "extensions.ignoreRecommendations": true,
-  "security.workspace.trust.enabled": false
+  "security.workspace.trust.enabled": false,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "cx\\(([^)]*)\\)",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
+  ],
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "node_modules/@mantine/core/styles.css"
+  ],
+  "powermode.enabled": true,
+  "powermode.presets": "fireworks",
+  "workbench.colorTheme": "Andromeda Italic",
+  "javascript.updateImportsOnFileMove.enabled": "never"
 }
