@@ -1,1 +1,112 @@
-/home/hai/.config/Code/User/settings.json
+{
+  "window.title": "${activeEditorMedium}",
+  "window.density.editorTabHeight": "compact",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": -1.6,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
+  "window.confirmSaveUntitledWorkspace": false,
+  "editor.fontFamily": "'Cascadia Code','JetBrains Mono','Droid Sans Mono', 'monospace', monospace",
+  // "editor.fontLigatures": true,
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          ""
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "editor.mouseWheelZoom": true,
+  "editor.fontVariations": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.quickSuggestionsDelay": 1,
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.cursorBlinking": "expand",
+  "editor.glyphMargin": false,
+  "editor.matchBrackets": "near",
+  "editor.formatOnSave": true,
+  "editor.smoothScrolling": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.fastScrollSensitivity": 10,
+  "editor.snippetSuggestions": "none",
+  "editor.suggest.showWords": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#7eb2ff",
+    "editorBracketHighlight.foreground2": "#85df82",
+    "editorBracketHighlight.foreground3": "#ac8cd1",
+    "editorBracketHighlight.foreground4": "#ff90eb",
+    "editorBracketHighlight.foreground5": "#ffe057",
+    "editorBracketHighlight.foreground6": "#ffa777",
+    "editor.background": "#20232b",
+  },
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.commandPalette.history": 10,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.list.smoothScrolling": true,
+  "workbench.list.mouseWheelScrollSensitivity": 2,
+  "terminal.integrated.fontFamily": "'MesloLGS NF','Cascadia Code','monospace'",
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "none",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.tabs.defaultIcon": "github",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "git.decorations.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "explorer.confirmPasteNative": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": false,
+  "tailwindCSS.emmetCompletions": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "extensions.autoCheckUpdates": false,
+  "css.lint.emptyRules": "ignore",
+  "scss.lint.emptyRules": "ignore",
+  "update.mode": "none",
+  "extensions.autoUpdate": "onlySelectedExtensions",
+  "update.showReleaseNotes": false,
+  "extensions.ignoreRecommendations": true,
+  "security.workspace.trust.enabled": false,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "cx\\(([^)]*)\\)",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
+  ],
+  "workbench.colorTheme": "Andromeda Italic",
+  "javascript.updateImportsOnFileMove.enabled": "never"
+}
