@@ -12,9 +12,7 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": [
-          ""
-        ],
+        "scope": [""],
         "settings": {
           "fontStyle": "italic"
         }
@@ -31,7 +29,7 @@
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
   "editor.cursorBlinking": "expand",
-  "editor.glyphMargin": false,
+  // "editor.glyphMargin": false,
   "editor.matchBrackets": "near",
   "editor.formatOnSave": true,
   "editor.smoothScrolling": true,
@@ -57,10 +55,9 @@
     "editorBracketHighlight.foreground4": "#ff90eb",
     "editorBracketHighlight.foreground5": "#ffe057",
     "editorBracketHighlight.foreground6": "#ffa777",
-    "editor.background": "#20232b",
+    "editor.background": "#20232b"
   },
   "workbench.layoutControl.enabled": false,
-  "workbench.activityBar.location": "hidden",
   "workbench.commandPalette.history": 10,
   "workbench.editor.empty.hint": "hidden",
   "workbench.list.smoothScrolling": true,
@@ -98,15 +95,25 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.iconTheme": "material-icon-theme",
   "tailwindCSS.experimental.classRegex": [
-    [
-      "cva\\(([^)]*)\\)",
-      "[\"'`]([^\"'`]*).*?[\"'`]"
-    ],
-    [
-      "cx\\(([^)]*)\\)",
-      "(?:'|\"|`)([^']*)(?:'|\"|`)"
-    ]
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ],
   "workbench.colorTheme": "Andromeda Italic",
-  "javascript.updateImportsOnFileMove.enabled": "never"
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "debug.onTaskErrors": "debugAnyway",
+  "codeviz.analyticsEnabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.location": "hidden",
+  "git.autofetch": true,
+  "vetur.ignoreProjectWarning": true
 }
