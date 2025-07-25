@@ -1,13 +1,9 @@
 {
-  "window.title": "${activeEditorMedium}",
   "window.density.editorTabHeight": "compact",
-  "window.titleBarStyle": "custom",
-  "window.zoomLevel": -1.6,
-  "window.commandCenter": false,
+  "window.zoomLevel": -1.4,
   "window.menuBarVisibility": "toggle",
   "window.confirmSaveUntitledWorkspace": false,
   "editor.fontFamily": "'Cascadia Code','JetBrains Mono','Droid Sans Mono', 'monospace', monospace",
-  // "editor.fontLigatures": true,
   "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -22,7 +18,7 @@
   "css.lint.unknownAtRules": "ignore",
   "editor.mouseWheelZoom": true,
   "editor.fontVariations": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.quickSuggestionsDelay": 1,
@@ -64,7 +60,7 @@
   "workbench.list.mouseWheelScrollSensitivity": 2,
   "terminal.integrated.fontFamily": "'MesloLGS NF','Cascadia Code','monospace'",
   "terminal.integrated.fontWeight": "bold",
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.env.linux": {},
   "terminal.integrated.tabs.enabled": false,
   "terminal.integrated.persistentSessionReviveProcess": "never",
@@ -86,7 +82,7 @@
   "css.lint.emptyRules": "ignore",
   "scss.lint.emptyRules": "ignore",
   "update.mode": "none",
-  "extensions.autoUpdate": "onlySelectedExtensions",
+  "extensions.autoUpdate": false,
   "update.showReleaseNotes": false,
   "extensions.ignoreRecommendations": true,
   "security.workspace.trust.enabled": false,
@@ -113,7 +109,35 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.activityBar.location": "hidden",
+  "autopep8.args": ["--indent-size=2"],
+  "[python]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
   "git.autofetch": true,
-  "vetur.ignoreProjectWarning": true
+  "vetur.ignoreProjectWarning": true,
+  "workbench.activityBar.location": "bottom",
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "python.languageServer": "Pylance",
+  "python.analysis.autoImportCompletions": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  }
 }
